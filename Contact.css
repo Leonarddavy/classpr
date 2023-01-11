@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background: rgba(0,0,0,0.7);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: rgb(194, 58, 9);
+    font-size: 30px;
+
+     line-height: 80px;
+    padding: 0 100px;
+    font-weight: bolder;
+}
+nav ul{
+    float: right;
+    margin-right: 25px ;
+  
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: bolder;
+}
+nav ul li a{
+    text-decoration: none;
+    color:  rgb(194, 58, 9);
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+    
+}
+a.stl,a:hover{
+     background: coral;
+     transition: 0.5s;
+
+}
+ 
+.contact-section{
+    background: url(img/gaming.webp) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+
+.contact-section h2{
+   text-align: center;
+   color: rgb(216, 68, 14);
+   font-weight: bolder;
+}
+.border{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background:  rgb(216, 68, 14);
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.input-group{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    border-radius: 10px;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: coral;
+    transition: 0.6s;
+}
+.input-group:focus{
+    box-shadow: 0 0 10px 4px  coral;
+}
+
+textarea.input-group{
+    resize: none;
+    height: 100px;
+}
+.send-button{
+    display: block;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background: coral;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.send-button:hover{
+    background: coral;
+
+
+}

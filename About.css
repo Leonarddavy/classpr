@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;   
+      }
+
+      
+nav{
+    background: rgba(0,0,0,0.7);
+    height: 80px;
+    width: 100%;
+    
+}
+
+label.logo{
+    color: rgb(194, 58, 9);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bolder;
+}
+nav ul{
+    float: right;
+    margin-right: 25px ;
+  
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: bolder;
+}
+nav ul li a{
+    text-decoration: none;
+    color:  rgb(194, 58, 9);
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+    
+}
+a.stl,a:hover{
+     background: coral;
+     transition: 0.5s;
+}
+      body{
+        background: url(img/gaming.webp) no-repeat center;
+        background-size: cover;
+        font-family: sans-serif;
+    }
+   .table-box{
+       margin: 50px auto;
+       margin-top: 30%;
+   }
+   .h2{
+      margin-left: 46%;
+      margin-top: 10px;
+      margin: bottom 1rem;
+      color: rgba(243, 117, 14, 0.938);
+
+   }
+   .avatar img{
+    position : absolute;
+    top: 170px;
+    left: calc(50% - 100px);
+    width: 200px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 48%;
+   }
+   .table-row{
+       display: table;
+       width: 80%;
+       margin: 10px auto;
+       font-family: sans-serif;
+       font-weight: 900;
+       background: transparent;
+       padding: 12px 0;
+       color:coral;
+       font-size: 13px;
+       box-shadow: 0 0 10px 4px rgb(194, 58, 9);
+   }
+   .table-cell{
+       display: table-cell;
+       width: 30%;
+       text-align: center;
+       padding: 4px 0;
+       border-right: 1px solid #f35d18ec ;
+       vertical-align: middle;
+   }
+   .table-head{
+       background:rgb(201, 60, 8);
+       border-radius: 15px;
+       box-shadow: none;
+       font-weight:600 ;
+       color: #fff;
+   }
+   .table-head .table-cell{
+       border-right: none;
+   }
+   .last-cell{
+       border-right: none;
+   }

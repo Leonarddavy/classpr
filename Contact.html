@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="Contact.css">
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <label class="logo">DAVINCIS GAMING</label>
+       <ul>
+           <li><a  href="Home.html"> HOME</a></li>
+           <li><a href="About us.html">ABOUT</a></li>
+           <li><a href="Gallery.html"> GALLERY</a></li>
+           <li><a class="stl" href="#">CONTACT US</a></li>
+       </ul>
+    </nav>
+
+  </header>
+ <footer>
+ <div class="contact-section">
+
+   <h2>Contact Us</h2>   
+   <div class="border"></div>
+   
+  <form class="contact-form"  onsubmit="return verify()">       <!--onsubmit="return verify()"--><!--action="onclick=handleclick()"-->
+     <input type="text" id="name" name="name"  placeholder="Name" class="input-group">
+     <input type="email" id="email" name="email"  placeholder="Email" class="input-group">
+     <input type="text" id="RegNo" name="RegNo"  placeholder="Reg No." class="input-group">
+     <input type="text" id="PostalAddress" name="PostalAddress"  placeholder="Postal Address" class="input-group">
+     <textarea placeholder="Comment" class="input-group"></textarea>
+
+     <input type="submit"  value="Send" class="send-button"><!--onclick="handleclick()-->
+
+     <script src="valiidation.js"></script>
+  </form>
+ </div>
+ </footer>
+</body>
+</html>
